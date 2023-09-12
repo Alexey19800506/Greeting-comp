@@ -5,4 +5,4 @@ import  Greeting  from './Greeting';
  
 const rootElement = document.querySelector('#root');
 
-ReactDOM.render(<Greeting firstName="John" lastName="Doe" birthDate= "05-06-1980"/>, rootElement);
+ReactDOM.render(<Greeting firstName="John" lastName="Doe" birthDate={new Date("1980-06-05")} />, rootElement);
